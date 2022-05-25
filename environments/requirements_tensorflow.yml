@@ -1,0 +1,15 @@
+name: ml-weather-tutorial-tf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - pandas
+  - xarray
+  - iris
+  - cartopy
+  - scikit-learn
+  - tensorflow
+  - tensorboard
