@@ -1,4 +1,4 @@
-name: ml-weather-tutorial-skl-basic
+name: ml-weather-tutorial-skl
 channels:
   - conda-forge
 dependencies:
