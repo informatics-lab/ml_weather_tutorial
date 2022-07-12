@@ -7,10 +7,13 @@ channels:
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
+  - alembic=1.8.0=pyhd8ed1ab_0
   - antlr-python-runtime=4.7.2=py38h578d9bd_1003
   - anyio=3.6.1=py38h578d9bd_0
+  - appdirs=1.4.4=pyh9f0ad1d_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
   - argon2-cffi-bindings=21.2.0=py38h0a891b7_2
+  - asn1crypto=1.5.1=pyhd8ed1ab_0
   - asttokens=2.0.5=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd8ed1ab_0
   - babel=2.10.3=pyhd8ed1ab_0
@@ -19,6 +22,7 @@ dependencies:
   - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
   - beautifulsoup4=4.11.1=pyha770c72_0
   - bleach=5.0.0=pyhd8ed1ab_0
+  - blinker=1.4=py_1
   - brotli=1.0.9=h166bdaf_7
   - brotli-bin=1.0.9=h166bdaf_7
   - brotlipy=0.7.0=py38h0a891b7_1004
@@ -31,26 +35,38 @@ dependencies:
   - cffi=1.15.0=py38h3931269_0
   - cftime=1.6.0=py38h71d37f0_1
   - charset-normalizer=2.0.12=pyhd8ed1ab_0
+  - click=8.1.3=py38h578d9bd_0
   - cloudpickle=2.1.0=pyhd8ed1ab_0
+  - configparser=5.2.0=pyhd8ed1ab_0
   - cryptography=37.0.2=py38h2b5fc30_0
   - curl=7.83.1=h7bff187_0
   - cycler=0.11.0=pyhd8ed1ab_0
   - dask-core=2022.6.0=pyhd8ed1ab_0
+  - databricks-cli=0.17.0=pyhd8ed1ab_0
   - debugpy=1.6.0=py38hfa26641_0
   - decorator=5.1.1=pyhd8ed1ab_0
   - defusedxml=0.7.1=pyhd8ed1ab_0
+  - docker-py=5.0.3=py38h578d9bd_2
+  - docker-pycreds=0.4.0=py_0
   - entrypoints=0.4=pyhd8ed1ab_0
   - executing=0.8.3=pyhd8ed1ab_0
   - expat=2.4.8=h27087fc_0
+  - flask=2.1.2=pyhd8ed1ab_1
   - flit-core=3.7.1=pyhd8ed1ab_0
   - fonttools=4.33.3=py38h0a891b7_0
   - freetype=2.10.4=h0708190_1
   - fsspec=2022.5.0=pyhd8ed1ab_0
   - geos=3.10.3=h27087fc_0
   - giflib=5.2.1=h36c2ea0_2
+  - gitdb=4.0.9=pyhd8ed1ab_0
+  - gitpython=3.1.27=pyhd8ed1ab_0
+  - gorilla=0.4.0=pyhd8ed1ab_0
+  - greenlet=1.1.2=py38hfa26641_2
+  - gunicorn=20.1.0=py38h578d9bd_2
   - hdf4=4.2.15=h10796ff_3
   - hdf5=1.12.1=nompi_h2386368_104
   - idna=3.3=pyhd8ed1ab_0
+  - imbalanced-learn=0.7.0=py_1
   - importlib-metadata=4.11.4=py38h578d9bd_0
   - importlib_metadata=4.11.4=hd8ed1ab_0
   - importlib_resources=5.8.0=pyhd8ed1ab_0
@@ -58,6 +74,7 @@ dependencies:
   - ipython=8.4.0=py38h578d9bd_0
   - ipython_genutils=0.2.0=py_1
   - iris=3.1.0=pyhd8ed1ab_3
+  - itsdangerous=2.1.2=pyhd8ed1ab_0
   - jedi=0.18.1=py38h578d9bd_1
   - jinja2=3.1.2=pyhd8ed1ab_1
   - joblib=1.1.0=pyhd8ed1ab_0
@@ -96,6 +113,7 @@ dependencies:
   - libnsl=2.0.0=h7f98852_0
   - libopenblas=0.3.20=pthreads_h78a6416_0
   - libpng=1.6.37=h21135ba_2
+  - libprotobuf=3.20.1=h6239696_0
   - libsodium=1.0.18=h36c2ea0_1
   - libssh2=1.10.0=ha56f1ee_2
   - libstdcxx-ng=12.1.0=ha89aaad_16
@@ -108,10 +126,12 @@ dependencies:
   - libzlib=1.2.12=h166bdaf_1
   - locket=1.0.0=pyhd8ed1ab_0
   - lz4-c=1.9.3=h9c3ff4c_1
+  - mako=1.2.1=pyhd8ed1ab_0
   - markupsafe=2.1.1=py38h0a891b7_1
   - matplotlib-base=3.5.2=py38h826bfd8_0
   - matplotlib-inline=0.1.3=pyhd8ed1ab_0
   - mistune=0.8.4=py38h497a2fe_1005
+  - mlflow=1.2.0=py_1
   - munkres=1.1.4=pyh9f0ad1d_0
   - nbclassic=0.3.7=pyhd8ed1ab_0
   - nbclient=0.6.4=pyhd8ed1ab_1
@@ -125,8 +145,9 @@ dependencies:
   - notebook=6.4.12=pyha770c72_0
   - notebook-shim=0.1.0=pyhd8ed1ab_0
   - numpy=1.22.4=py38h99721a1_0
+  - oauthlib=3.2.0=pyhd8ed1ab_0
   - openjpeg=2.4.0=hb52868f_1
-  - openssl=1.1.1o=h166bdaf_0
+  - openssl=1.1.1q=h166bdaf_0
   - packaging=21.3=pyhd8ed1ab_0
   - pandas=1.3.5=py38h43a58ef_0
   - pandoc=2.18=ha770c72_0
@@ -140,12 +161,14 @@ dependencies:
   - proj=9.0.1=h93bde94_0
   - prometheus_client=0.14.1=pyhd8ed1ab_0
   - prompt-toolkit=3.0.29=pyha770c72_0
+  - protobuf=3.20.1=py38hfa26641_0
   - psutil=5.9.1=py38h0a891b7_0
   - pthread-stubs=0.4=h36c2ea0_1001
   - ptyprocess=0.7.0=pyhd3deb0d_0
   - pure_eval=0.2.2=pyhd8ed1ab_0
   - pycparser=2.21=pyhd8ed1ab_0
   - pygments=2.12.0=pyhd8ed1ab_0
+  - pyjwt=2.4.0=pyhd8ed1ab_0
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.9=pyhd8ed1ab_0
   - pyproj=3.3.1=py38he1635e7_1
@@ -160,6 +183,7 @@ dependencies:
   - pytz=2022.1=pyhd8ed1ab_0
   - pyyaml=6.0=py38h0a891b7_4
   - pyzmq=23.1.0=py38hfc09fa9_0
+  - querystring_parser=1.2.4=py_0
   - readline=8.1.2=h0f457ee_0
   - requests=2.28.0=pyhd8ed1ab_0
   - scikit-learn=0.24.2=py38hacb3eff_1
@@ -167,11 +191,16 @@ dependencies:
   - send2trash=1.8.0=pyhd8ed1ab_0
   - setuptools=59.8.0=py38h578d9bd_1
   - shapely=1.8.2=py38h928055b_2
+  - simplejson=3.17.6=py38h0a891b7_1
   - six=1.16.0=pyh6c4a22f_0
+  - smmap=3.0.5=pyh44b312d_0
   - sniffio=1.2.0=py38h578d9bd_3
   - soupsieve=2.3.1=pyhd8ed1ab_0
+  - sqlalchemy=1.4.39=py38h0a891b7_0
   - sqlite=3.38.5=h4ff8645_0
+  - sqlparse=0.4.2=pyhd8ed1ab_0
   - stack_data=0.3.0=pyhd8ed1ab_0
+  - tabulate=0.8.10=pyhd8ed1ab_0
   - terminado=0.15.0=py38h578d9bd_0
   - threadpoolctl=3.1.0=pyh8a188c0_0
   - tinycss2=1.1.1=pyhd8ed1ab_0
@@ -179,12 +208,14 @@ dependencies:
   - toolz=0.11.2=pyhd8ed1ab_0
   - tornado=6.1=py38h0a891b7_3
   - traitlets=5.3.0=pyhd8ed1ab_0
+  - typing_extensions=4.3.0=pyha770c72_0
   - udunits2=2.2.28=hc3e0081_0
   - unicodedata2=14.0.0=py38h0a891b7_1
   - urllib3=1.26.9=pyhd8ed1ab_0
   - wcwidth=0.2.5=pyh9f0ad1d_2
   - webencodings=0.5.1=py_1
   - websocket-client=1.3.3=pyhd8ed1ab_0
+  - werkzeug=2.1.2=pyhd8ed1ab_1
   - wheel=0.37.1=pyhd8ed1ab_0
   - xarray=0.19.0=pyhd8ed1ab_1
   - xorg-libxau=1.0.9=h7f98852_0
@@ -196,5 +227,5 @@ dependencies:
   - zipp=3.8.0=pyhd8ed1ab_0
   - zlib=1.2.12=h166bdaf_1
   - zstd=1.5.2=h8a70e8d_1
-prefix: /home/h01/shaddad/.conda/envs/ml-weather-tutorial-skl-basic
+
 
