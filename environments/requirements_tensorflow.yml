@@ -1,4 +1,4 @@
-name: ml-weather-tutorial-tf
+name: ml_weather_tutorial_tf
 channels:
   - conda-forge
 dependencies:
@@ -11,3 +11,4 @@ dependencies:
   - scikit-learn=0.24
   - tensorflow=2.8
   - tensorboard=2.8
+
