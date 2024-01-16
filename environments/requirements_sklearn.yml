@@ -1,4 +1,4 @@
-name: ml-weather-tutorial-skl
+name: ml_weather_tutorial_skl
 channels:
   - conda-forge
 dependencies:
@@ -10,5 +10,5 @@ dependencies:
   - iris=3.1
   - scikit-learn=0.24
   - imbalanced-learn
-  - mlflow
+  - mlflow=1.20
 
