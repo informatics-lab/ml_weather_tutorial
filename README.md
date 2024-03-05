@@ -4,54 +4,8 @@ Tutorial material for using machine learning in weather science research
 
 # Hackathon / Tutorial Environment Setup 
 
-In this tutorial we will be using Jupyter Hub on Spice. 
-We will be using conda environments for running the data science and machine learning libraries required for this tutorial. 
-It would be best if everyone can try setting up their environment before the start of the tutorial to help things to run smoothly.  
-
-## Setup Steps  
-
-Follow these steps to prepare your compute environment to run the tutorial notebooks.
-
-### 1. Clone this repository onto your VDI
-
-Log into your VDI and launch a terminal
-
-Navigate to the folder you wish to store this tutorial in, and clone the repiository using:
-
-```bash
-$ git clone https://github.com/informatics-lab/ml_weather_tutorial/ 
-```
-
-### 2. Build the `conda` environments for this tutorial
-
-If you have never used `conda` on your VDI before, please follow these instructions to set it up with the required Met Office security precautions:<br>
-https://metoffice.sharepoint.com/sites/TechnologyCommsSite/SitePages/Tooling/Artifactory/Authenticating-Conda-with-Artifactory.aspx 
-
-You can check whether `conda` is working correctly by running the following command, which should list all available `conda` environments on your system:
-```bash
-$ conda env list
-```
-
-You can then build the `conda` environments needed for these tutorials using the following commands (these can take a few minutes to complete):
-```bash
-$ cd ml_weather_tutorial
-$ conda env create --file environments/req_sklearn_spice_lock.yml
-$ conda env create --file environments/req_tensorflow_spice_lock.yml
-```
-
-### 3. JupyterHub on SPICE
-
-For these tutorials we will be using JupyterHub on SPICE. This gives us access to more compute resources on SPUCE than using the VDI, and a convenient Jupyter interface to run the tutorial notebooks.
-
-Start your own JupyterHub session on SPICE by going to https://jupyterhub.metoffice.gov.uk/. We recommend launching it in a web-browser on Windows for a smoother experience, but it will work on your VDI too.
-
-You will need to log in with your **LINUX** username and password, the same used to log into your VDI (**not** your Windows username or email address).
-
-You will then be presented with the usual SPICE option for requesting CPUs, memory and an amount of time. We recommend at least 2 cores, 8 GB of RAM and 300 minutes for this tutorial.
-
-For more information on how to use JupyterHub on SPICE, please watch this 4 minute video:
-https://web.microsoftstream.com/video/99527d1c-d4b2-47b7-9477-9adb70485a05  
-
+[Met Office specific setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Met-Office-Specific-Setup)
+[General device setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Setup-Instructions)
 
 ---
 # ML Tutorial & Hackathon Prospectus 
