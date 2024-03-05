@@ -14,7 +14,7 @@ Follow these steps to prepare your compute environment to run the tutorial noteb
 
 ### 1. Clone this repository onto your VDI
 
-Log into your VDI and launch a terminal
+Open a linux terminal (for Met Office staff this can be on a VDI, Spice or similar)
 
 Navigate to the folder you wish to store this tutorial in, and clone the repiository using:
 
@@ -23,6 +23,7 @@ $ git clone https://github.com/informatics-lab/ml_weather_tutorial/
 ```
 
 ### 2. Build the `conda` environments for this tutorial
+
 
 If you have never used `conda` on your VDI before, please follow these instructions to set it up with the required Met Office security precautions:<br>
 https://metoffice.sharepoint.com/sites/TechnologyCommsSite/SitePages/Tooling/Artifactory/Authenticating-Conda-with-Artifactory.aspx 
