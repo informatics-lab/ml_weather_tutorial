@@ -1,4 +1,4 @@
-name: ml_weather_tutorial_tf_update
+name: ml_weather_tutorial_tf
 channels:
   - conda-forge
 dependencies:
