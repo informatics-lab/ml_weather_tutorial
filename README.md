@@ -4,8 +4,8 @@ Tutorial material for using machine learning in weather science research
 
 # Hackathon / Tutorial Environment Setup 
 
-[Met Office specific setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Met-Office-Specific-Setup)
-[General device setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Setup-Instructions)
+* [Met Office specific setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Met-Office-Specific-Setup)
+* [General device setup](https://github.com/informatics-lab/ml_weather_tutorial/wiki/Setup-Instructions)
 
 ---
 # ML Tutorial & Hackathon Prospectus 
